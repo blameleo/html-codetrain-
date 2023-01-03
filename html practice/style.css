@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(222, 222, 222);
+    color: rgb(4, 114, 103);
+}
+
+
+.first-title {
+    font-size: 3rem;
+    background-color: white;
+    width: 6%;
+
+}
+
+
+a {
+    background-color: yellow;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+}
+
+#book {
+    font-weight: 400;
+    color: red;
+    background-image: url(test.jpeg);
+    height: 200px;
+}

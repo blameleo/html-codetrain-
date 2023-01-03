@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+            h1 {
+                font-weight: 900;
+                font-size: 3rem;
+            }
+            label {
+                font-size: 2rem;
+                
+            }
+            form {
+                border: solid;
+                max-width: 450px;
+                padding: 1em;
+                border-radius: 12px;
+                margin: 0 auto;
+            }
+            body {
+                font-family: 'Poor Story';
+                text-align: center;
+            }
+            input {
+                padding: 1em 4em;
+                margin-bottom: 2em;
+                border-radius: 12px;
+                border: solid blue 
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <form action="">
+            <div>
+                <label for="">firstname</label>
+            <input type="text" name="firstname">
+            </div>
+            <div>
+                <label for="">lastname</label>
+            <input type="text" name="lastname">
+            </div>
+            <div>
+                <label for="">email</label>
+            <input type="email" name="email">
+            </div>
+            <div>
+                <label for="">phone</label>
+            <input type="number" name="number">
+            </div>
+            <div>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">other
+            </div>
+            <button>enter</button>
+        </form>
+    </body>
+</html>
